@@ -80,15 +80,12 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 23px;
+    line-height: 4px;
     /* identical to box height */
     color: #111111;
     mix-blend-mode: normal;
     opacity: 0.6;
     display: flex;
-    text-align: center;
-    align-items: flex-end;
-    flex-direction: column;
 }
 
 .Service2 {
@@ -96,12 +93,158 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 23px;
+    line-height: 4px;
     /* identical to box height */
     color: #111111;
     mix-blend-mode: normal;
     opacity: 0.6;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+
 }
+
+.Column-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 94px;
+    margin-top: 70px;
+}
+
+.Column-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.Part-3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Part-3-title {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+    color: #111111;
+    margin-top: 150px;
+    margin-left: 90px;
+}
+
+.Box-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Part-3-title2 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #111111;
+    margin-left: 350px;
+    margin-top: 150px;
+}
+
+.Box-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Part-3-title3 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #111111;
+    display: block;
+    margin-top: 400px;
+    margin-left: -130px;
+}
+
+.Part-3-title4 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #111111;
+}
+
+.Part-3-title5 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #111111;
+}
+
+.Part-3-info {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.Box-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 137px;
+    margin-left: 130px;
+}
+
+.Box-4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 386px;
+    margin-left: -11.4rem;
+}
+
+.Year-box {
+    display: flex;
+}
+
+.Year-box2 {
+    display: flex;
+    margin-top: 384px;
+    margin-left: -33px;
+}
+
+.Year1 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: right;
+    color: #111111;
+    margin-top: 151px;
+    margin-left: 120px;
+}
+
+.Year2 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: right;
+    color: #111111;
+}
+
