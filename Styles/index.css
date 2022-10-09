@@ -248,3 +248,47 @@ body {
     color: #111111;
 }
 
+.Part-4 {
+    display: flex;
+}
+
+.Box-5 {
+    display: flex;
+    margin-left: -80px;
+}
+
+.Box-6 {
+    display: flex;
+}
+
+.Box-7 {
+    display: flex;
+    margin-top: 136px;
+    margin-left: 130px;
+    flex-direction: column;
+}
+
+.Box-8 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 387px;
+    margin-left: -185px;
+}
+
+.Year-box3 {
+    display: flex;
+    margin-left: 9px;
+}
+
+.Year-box4 {
+    display: flex;
+    margin-top: 387px;
+    margin-left: -40px;
+}
+
+.Footer {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
