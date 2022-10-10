@@ -1,19 +1,47 @@
 body {
     margin: 0;
-    display: flex;
+    padding: 0;
     width: 100%;
 }
 
 .Logo {
     display: flex;
     margin-left: 90px;
-    margin-top: 30px;
+    margin-top: 40px;
+}
+
+.Button1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -22px;
+    margin-right: 220px;
+}
+
+.Button2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -22px;
+    margin-right: 125px;
+}
+
+.Button-text {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: -0.346154px;
+    color: #111111;
 }
 
 .Title {
     display: flex;
     margin-left: 90px;
     margin-top: 96px;
+}
+
+.Title-text {
     font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -27,6 +55,10 @@ body {
 
 .Main-info {
     display: flex;
+    margin-left: 90px;
+}
+
+.Main-text {
     font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -34,13 +66,17 @@ body {
     line-height: 60px;
     /* or 150% */
     color: #111111;
-    margin-left: 90px;
 }
 
 .Quote {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    margin-top: -75px;
+    margin-right: 198px;
+}
+
+.Quote-text {
     font-family: 'Mulish', sans-serif;
     font-style: italic;
     font-weight: 400;
@@ -50,7 +86,6 @@ body {
     color: #111111;
     mix-blend-mode: normal;
     opacity: 0.6;
-    margin-top: -75px;
 }
 
 .Image-1 {
@@ -290,5 +325,5 @@ body {
     display: flex;
     margin-top: 200px;
     margin-left: 90px;
-    margin-bottom: 20px;
+    margin-bottom: 46px;
 }
