@@ -33,6 +33,7 @@ body {
     /* identical to box height */
     letter-spacing: -0.346154px;
     color: #111111;
+    text-decoration: none;
 }
 
 .Title {
