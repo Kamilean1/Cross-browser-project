@@ -4,6 +4,14 @@ body {
     width: 100%;
 }
 
+@import "./_header.scss";
+
+@import "./_navbar.scss";
+
+@import "./footer";
+
+$Maincolor : #111111;
+
 .Title {
     display: flex;
     margin-left: 90px;
@@ -52,7 +60,7 @@ body {
     font-size: 18px;
     line-height: 23px;
     /* identical to box height */
-    color: #111111;
+    color: $Maincolor;
     mix-blend-mode: normal;
     opacity: 0.6;
 }
@@ -74,7 +82,7 @@ body {
     font-size: 28px;
     line-height: 38px;
     /* or 136% */
-    color: #111111;
+    color: $Maincolor;
     margin-top: 80px;
     margin-left: 90px;
 }
@@ -86,7 +94,7 @@ body {
     font-size: 18px;
     line-height: 4px;
     /* identical to box height */
-    color: #111111;
+    color: $Maincolor;
     mix-blend-mode: normal;
     opacity: 0.6;
     display: flex;
@@ -99,7 +107,7 @@ body {
     font-size: 18px;
     line-height: 4px;
     /* identical to box height */
-    color: #111111;
+    color: $Maincolor;
     mix-blend-mode: normal;
     opacity: 0.6;
     display: flex;
@@ -132,7 +140,7 @@ body {
     font-size: 22px;
     line-height: 28px;
     /* identical to box height */
-    color: #111111;
+    color: $Maincolor;
     margin-top: 150px;
     margin-left: 90px;
 }
@@ -149,7 +157,7 @@ body {
     font-size: 18px;
     line-height: 23px;
     /* identical to box height */
-    color: #111111;
+    color: $Maincolor;
     margin-left: 350px;
     margin-top: 150px;
 }
@@ -166,7 +174,7 @@ body {
     font-size: 18px;
     line-height: 23px;
     /* identical to box height */
-    color: #111111;
+    color: $Maincolor;
     display: block;
     margin-top: 400px;
     margin-left: -130px;
@@ -179,7 +187,7 @@ body {
     font-size: 16px;
     line-height: 20px;
     /* identical to box height */
-    color: #111111;
+    color: $Maincolor;
 }
 
 .Part-3-title5 {
@@ -189,7 +197,7 @@ body {
     font-size: 16px;
     line-height: 20px;
     /* identical to box height */
-    color: #111111;
+    color: $Maincolor;
 }
 
 .Part-3-info {
@@ -199,7 +207,7 @@ body {
     font-size: 16px;
     line-height: 26px;
     /* or 162% */
-    color: #111111;
+    color: $Maincolor;
     mix-blend-mode: normal;
     opacity: 0.6;
 }
@@ -236,7 +244,7 @@ body {
     line-height: 20px;
     /* identical to box height */
     text-align: right;
-    color: #111111;
+    color: $Maincolor;
     margin-top: 151px;
     margin-left: 120px;
 }
@@ -249,7 +257,7 @@ body {
     line-height: 20px;
     /* identical to box height */
     text-align: right;
-    color: #111111;
+    color: $Maincolor;
 }
 
 .Part-4 {
@@ -289,3 +297,4 @@ body {
     margin-top: 387px;
     margin-left: -40px;
 }
+
